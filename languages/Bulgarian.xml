@@ -18,13 +18,13 @@
         <buttonFanControlCustom>Персонализиран...</buttonFanControlCustom>
         <buttonFanControlCustomInfo>Посочете персонализиран режим на управление</buttonFanControlCustomInfo>
         <buttonMinimize>Минимизиране</buttonMinimize>
-        <buttonMinimizeMac>Скриване в горната лента</buttonMinimizeMac>
+        <buttonMinimizeMac>Скриване в лентата с менюта</buttonMinimizeMac>
         <buttonPreferences>Настройки...</buttonPreferences>
         <buttonAbout>За програмата...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control се нуждае от системен помощник, за да контролира вентилаторите. Можете да пропуснете, ако искате само да следите скорости и температури.</messageHelperToolInstall>
+        <messageHelperToolInstall>Macs Fan Control се нуждае от системен помощник, за да контролира вентилаторите. Можете да пропуснете, ако искате само да следите вентилаторите и температурните сензори.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control се нуждае от актуализация на системния помощник за контрол на вентилаторите.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Управление на вентилаторите не е налично</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control не успя да се свърже със системния помощник, за да поеме контрол над вентилаторите и скоростите. Уверете се, че въвеждате администраторската парола когато се изисква.\n\nВсе още можете да използвате приложението в режим само наблюдение.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control не успя да се свърже със системния помощник, за да поеме контрол над вентилаторите и скоростите. Уверете се, че въвеждате администраторската парола, когато се изисква.\n\nВсе още можете да използвате приложението в режим само за наблюдение.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Само наблюдение</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Не са открити вентилатори, моля опитайте да [нулирате SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
         <messageNoFansAvailable>Този компютър няма вентилатори и се охлажда пасивно</messageNoFansAvailable>
@@ -64,21 +64,21 @@
     <UpgradeToProDialog>
         <title>Надградете до Macs Fan Control Pro</title>
         <proInfo1>Pro версията ви позволява да създавате и запазвате персонализирани конфигурации на вентилаторите, за да можете бързо да превключвате между тях в зависимост от активността ви.</proInfo1>
-        <proInfo2>Ако вече сте закупили приложението, моля, натиснете бутона 'Въведи лиценз' по долу.</proInfo2>
+        <proInfo2>Ако вече сте закупили приложението, моля, натиснете бутона 'Въведи лиценз' по-долу.</proInfo2>
         <buttonPurchase>Купи</buttonPurchase>
         <buttonEnterLicense>Въведи лиценз</buttonEnterLicense>
         <buttonLater>По-късно</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>Отключи на Pro версията</title>
-        <infoText>Ако вече сте закупили Macs Fan Control, въведете вашия имейл адрес и продуктов ключ от имейл бележката в полетата по-долу. Така ще се отключат Pro функциите на Macs Fan Control.</infoText>
+        <infoText>Ако вече сте закупили Macs Fan Control, въведете вашия имейл адрес и продуктов ключ от имейла с разписката за покупка в полетата по-долу. Така ще се отключат Pro функциите на Macs Fan Control.</infoText>
         <licenseVerifyInfo>Информацията, която въвеждате може да бъде потвърдена по интернет.</licenseVerifyInfo>
         <email>Имейл адрес</email>
         <licenseKey>Продуктов ключ</licenseKey>
         <buttonUnlock>Отключи</buttonUnlock>
-        <buttonRestoreLicense>Възстанови линецз</buttonRestoreLicense>
+        <buttonRestoreLicense>Възстанови лиценз</buttonRestoreLicense>
         <invalidLicenseTitle>Невалиден лиценз!</invalidLicenseTitle>
-        <invalidLicenseText>Уверете се, че всички букви, цифри и тирета са въведени в правилния ред. Ако пишете ключа на ръка, опитайте да го копирате и поставите от имейл бележката.</invalidLicenseText>
+        <invalidLicenseText>Уверете се, че всички букви, цифри и тирета са въведени в правилния ред. Ако пишете ключа на ръка, опитайте да го копирате и поставите от имейла с разписката за покупка.</invalidLicenseText>
         <invalidLicenseMismatchOS>Този продуктов ключ е валиден, но не е предназначен за използване в %1.</invalidLicenseMismatchOS>
         <thanksTitle>Благодарим Ви за закупуването на Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Всички лимити на безплатната версия са премахнати, надяваме се, да ви хареса!</thanksInfo>
@@ -104,14 +104,14 @@
         <itemTechInfoZip>Създай пакет за поддръжка...</itemTechInfoZip>
         <itemRateApp>Оцени в MacUpdate</itemRateApp>
         <itemFollowTwitter>Последвай @crystalidea</itemFollowTwitter>
-        <itemUninstall>Дейнсталиране...</itemUninstall>
+        <itemUninstall>Деинсталиране...</itemUninstall>
         <itemExit>Изход</itemExit>
         <itemExitMac>Спри Macs Fan Control</itemExitMac>
         <itemSensorBased>Базирано на сензора</itemSensorBased>
         <itemUpgradeToPro>Надградете до Pro версията</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>Пакет за поддръжка '%1' съдържащ анонимни технически данни и екранна снимка на главния прозорец на програмата е създаден на Вашия десктоп.\n\nМоля изпратете този файл на support@crystalidea.com или го публикувайте на нашия GitHub Issue Tracker.</message>
+        <message>Пакет за поддръжка '%1', съдържащ анонимни технически данни и екранна снимка на главния прозорец на програмата е създаден на Вашия десктоп.\n\nМоля, изпратете този файл на support@crystalidea.com или го публикувайте на нашия GitHub Issue Tracker.</message>
         <browseButton>Покажи ZIP файл</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
@@ -119,7 +119,7 @@
         <TabGeneral>Общи</TabGeneral>
         <tabTrayIcon>Икона в лентата с програмите</tabTrayIcon>
         <tabSensors>Сензори</tabSensors>
-        <tabTrayIconMac>Показване в горната лента</tabTrayIconMac>
+        <tabTrayIconMac>Показване в лентата с менюта</tabTrayIconMac>
         <tabDiagnostics>Диагностика</tabDiagnostics>
         <staticLanguage>Език:</staticLanguage>
         <checkSystemStart>Автостарт в минимизиран режим при влизане в акаунта (препоръчително)</checkSystemStart>
@@ -139,7 +139,7 @@
         <comboOptionNone>Без</comboOptionNone>
         <checkTwoLines>Показване на данни за вентилатор/сензор в две линии за спестяване на място</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(само по Целзий)</staticCelsiusOnlyOnWindows>
-        <checkLog>Активирах log (необходим е рестарт на приложението)</checkLog>
+        <checkLog>Активирай log (необходим е рестарт на приложението)</checkLog>
         <browseLog>Показване на log</browseLog>
     </PreferencesWindow>
     <AboutDialog>
@@ -148,7 +148,7 @@
         <staticOnlineHelp>Онлайн помощ</staticOnlineHelp>
         <staticFreeVersion>Безплатна версия</staticFreeVersion>
         <staticProVersion>Pro версия, лиценз за %1 компютър(ри)</staticProVersion>
-        <staticWarning>ТАЗИ ПРОГРАМА Е ЗА НАПРЕДНАЛИ ПОТРЕБИТЕЛИ, КОИТО ЗНАЯТ КАК ДА Я ИЗПОЛЗВАТ БЕЗ ДА НАВРЕДЯТ НА СВОЯ MAC. АВТОРИТЕ НЕ НОСЯТ ОТГОВОРНОСТ ЗА ЗАГУБА НА ДАННИ, ЩЕТИ, ФИНАНСОВИ ЗАГУБИ И ВСЯКАКЪВ ДРУГ ВИД ЗАГУБИ, ПРИЧИНЕНИ ОТ ПРАВИЛНОТО ИЛИ ГРЕШНО ИЗПОЛЗВАНЕ НА ПРОГРАМАТА</staticWarning>
+        <staticWarning>ТАЗИ ПРОГРАМА Е ПРЕДНАЗНАЧЕНА ЗА НАПРЕДНАЛИ ПОТРЕБИТЕЛИ. АВТОРИТЕ НЕ НОСЯТ ОТГОВОРНОСТ ЗА ЗАГУБА НА ДАННИ, ЩЕТИ, ФИНАНСОВИ ЗАГУБИ ИЛИ ДРУГИ ВРЕДИ, ПРИЧИНЕНИ ОТ УПОТРЕБАТА ИЛИ ЗЛОУПОТРЕБАТА С ПРОГРАМАТА.</staticWarning>
     </AboutDialog>
     <RateMeDialog>
         <message>Оценете приложението в MacUpdate</message>
@@ -159,8 +159,8 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Дейнсталирай Macs Fan Control?</title>
-        <message>На път сте напълно да деинсталирате приложението от Вашия Mac, включително неговите настройки, системния помощник и лиценза за Pro версията. Всички промени по управелнието на вентилаторите ще бъдат изключени и контрола ще се поеме автоматично от системата. \n\nМоже да бъдете подканени за разрешение, за да може да се деинсталира.</message>
-        <authorizeText>Моля авторизирайте приложението, за да може да се деинсталира системния помощник.</authorizeText>
+        <message>На път сте напълно да деинсталирате приложението от Вашия Mac, включително неговите настройки, системния помощник и лиценза за Pro версията. Всички промени по управлението на вентилаторите ще бъдат изключени и контролът ще се поеме автоматично от системата. \n\nМоже да бъдете подканени за разрешение, за да може да се деинсталира.</message>
+        <authorizeText>Моля, авторизирайте приложението, за да може да се деинсталира системният помощник.</authorizeText>
         <buttonUninstall>Деинсталиране</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
@@ -177,7 +177,7 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>Излезнала на %1</ReleasedOn>
+            <ReleasedOn>Излязла на %1</ReleasedOn>
             <CheckForUpdates>Провери за актуализации...</CheckForUpdates>
             <NewVersionAvailable>Достъпна е нова версия %1!</NewVersionAvailable>
             <NewVersionAvailableText>%1 %2 е достъпна сега – вие разполагате с %3. Желаете ли да я свалите сега?</NewVersionAvailableText>
@@ -187,7 +187,7 @@
             <UpdateAlertSkip>Пропусни тази версия</UpdateAlertSkip>
             <UpdateAlertInstall>Инсталирай актуализацията</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>Автоматична проверка за актуализации</UpdateAlertAutomaticUpdates>
-            <MessageNoUpdateAvailable>Всичко е актуално</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailable>Няма нови актуализации</MessageNoUpdateAvailable>
             <MessageNoUpdateAvailableDescription>Вече е инсталирана последната версия %1 %2.</MessageNoUpdateAvailableDescription>
             <MessageErrorConnect>При извличане на информация за актуализации възникна грешка. Опитай по-късно.</MessageErrorConnect>
             <MessageErrorParse>При обработката на информация за актуализации възникна грешка.</MessageErrorParse>
@@ -210,7 +210,7 @@
             <kStrMoveApplicationQuestionMessage>Бихте ли искали %1 да премести себе си в папката за приложения?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Премести в папката за приложения</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Не премествай</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Това действие ще изиска адмистраторската Ви парола.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Това действие ще изиска администраторската Ви парола.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>Това ще запази папката Ви за изтегляния чиста.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
